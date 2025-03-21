@@ -1,0 +1,40 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Feb 10 17:15:23 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000020
+                   .cinit    romdata   0x000010    program   0x000004
+    .config_2007_SOTO11.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000011      
+                            0x002007    0x002007      
+            19 out of 1094 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           interrupciones   0x00000f    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+                    jloop   0x000009    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+                    kloop   0x00000a    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+                    mloop   0x000006    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    mloop   0x000006    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+                    jloop   0x000009    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+                    kloop   0x00000a    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+           interrupciones   0x00000f    program     static C:\Sistemas Programables\Soto11\Soto11.asm
+
+

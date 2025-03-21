@@ -1,0 +1,5 @@
+Warning[205] C:\SISTEMAS PROGRAMABLES\MANEJO DE PUERTOS\MANEJO DE PUERTOS.ASM 1 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\SISTEMAS PROGRAMABLES\MANEJO DE PUERTOS\MANEJO DE PUERTOS.ASM 3 : Found directive in column 1. (LIST)
+Warning[205] C:\SISTEMAS PROGRAMABLES\MANEJO DE PUERTOS\MANEJO DE PUERTOS.ASM 4 : Found directive in column 1. (INCLUDE)
+Message[302] C:\SISTEMAS PROGRAMABLES\MANEJO DE PUERTOS\MANEJO DE PUERTOS.ASM 9 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\SISTEMAS PROGRAMABLES\MANEJO DE PUERTOS\MANEJO DE PUERTOS.ASM 11 : Register in operand not in bank 0.  Ensure that bank bits are correct.

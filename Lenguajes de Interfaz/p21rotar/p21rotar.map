@@ -1,0 +1,110 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Mar 05 16:32:57 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000020    program   0x0000ba
+  .config_2007_P21ROTAR.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000020    0x00007c      
+                            0x002007    0x002007      
+            97 out of 1094 program addresses used, program memory utilization is 8%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                LOOP_LEFT   0x000029    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+               LOOP_RIGHT   0x000030    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+    R1Decima_BucleExterno   0x000073    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+   R1Decima_BucleExterno2   0x000071    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+    R1Decima_BucleInterno   0x000075    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        R1ms_BucleExterno   0x00005d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        R1ms_BucleInterno   0x00005f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              ROTATE_LEFT   0x000027    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+             ROTATE_RIGHT   0x00002e    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+            RetardoMicros   0x000049    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_100micros   0x000043    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_100ms   0x00004f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+         Retardo_10micros   0x000036    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_10ms   0x000055    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_10s   0x000067    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_1Decima   0x000070    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_1ms   0x00005b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_1s   0x00006d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_200micros   0x000040    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_200ms   0x00004d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+         Retardo_20micros   0x000048    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_20ms   0x000053    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_20s   0x000065    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_2ms   0x000059    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_2s   0x00006b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_4micros   0x00003c    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_500micros   0x00003d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_500ms   0x00006f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+         Retardo_50micros   0x000045    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_50ms   0x000051    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_5micros   0x00003b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_5ms   0x000057    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_5s   0x000069    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardos_ms   0x00005c    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Rmicros_Bucle   0x00004a    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+                    START   0x000020    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+                     STOP   0x000035    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+             _.org_1_0035   0x000035    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000020    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+              ROTATE_LEFT   0x000027    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+                LOOP_LEFT   0x000029    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+             ROTATE_RIGHT   0x00002e    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+               LOOP_RIGHT   0x000030    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+             _.org_1_0035   0x000035    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+                     STOP   0x000035    program     static C:\Lenguajes de Interfaz\p21rotar\p21rotar.asm
+         Retardo_10micros   0x000036    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_5micros   0x00003b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_4micros   0x00003c    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_500micros   0x00003d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_200micros   0x000040    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        Retardo_100micros   0x000043    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+         Retardo_50micros   0x000045    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+         Retardo_20micros   0x000048    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            RetardoMicros   0x000049    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Rmicros_Bucle   0x00004a    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_200ms   0x00004d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_100ms   0x00004f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_50ms   0x000051    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_20ms   0x000053    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+             Retardo_10ms   0x000055    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_5ms   0x000057    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_2ms   0x000059    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_1ms   0x00005b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardos_ms   0x00005c    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        R1ms_BucleExterno   0x00005d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+        R1ms_BucleInterno   0x00005f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_20s   0x000065    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+              Retardo_10s   0x000067    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_5s   0x000069    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_2s   0x00006b    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+               Retardo_1s   0x00006d    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+            Retardo_500ms   0x00006f    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+          Retardo_1Decima   0x000070    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+   R1Decima_BucleExterno2   0x000071    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+    R1Decima_BucleExterno   0x000073    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+    R1Decima_BucleInterno   0x000075    program     static C:\Lenguajes de Interfaz\p21rotar\RETARDOS.INC
+
+
