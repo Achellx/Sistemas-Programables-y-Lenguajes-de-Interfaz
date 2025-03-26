@@ -1,0 +1,36 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sun Mar 23 19:50:20 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000018
+                   .cinit    romdata   0x00000c    program   0x000004
+ .config_2007_P23_BUCLE.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000d      
+                            0x002007    0x002007      
+            15 out of 1094 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 FOR_LOOP   0x000009    program     static C:\Users\Achell\Desktop\SP y LI\Lenguajes de Interfaz\P23_BUCLES\P23_BUCLE.asm
+                   INICIO   0x000000    program     static C:\Users\Achell\Desktop\SP y LI\Lenguajes de Interfaz\P23_BUCLES\P23_BUCLE.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000000    program     static C:\Users\Achell\Desktop\SP y LI\Lenguajes de Interfaz\P23_BUCLES\P23_BUCLE.asm
+                 FOR_LOOP   0x000009    program     static C:\Users\Achell\Desktop\SP y LI\Lenguajes de Interfaz\P23_BUCLES\P23_BUCLE.asm
+
+
